@@ -17,13 +17,13 @@
   }
   
   html {
-	font-size: 62.5%;
+	font-size: 65%;
   }
   
   body {
 	font-family: arial, sans-serif;
-	font-size: 1.6rem;
-	line-height: 1.6;
+	font-size: 1.5rem;
+	line-height: 1.5;
   }
   
   /* CUSTOM TAGS */
@@ -73,8 +73,6 @@
 
   }
   
- 
-  
   .nav-link {
 	line-height: 30px;
 	display: block;
@@ -104,13 +102,13 @@
     
   .sign-in-button {
 	display: inline-block;
-	border:  1px solid #4285f4;
+	border:  1px solid #2b7cff;
 	font-weight: bold;
 	padding: 0px 12px;
 	line-height: 28px;
-	border-radius: 2px;
+	border-radius: 4px;
 	margin-right: 2rem;
-	background-color: #4285f4;
+	background-color: #2b7cff;
 	color: #fff;
 	font-weight: bold;
 	opacity: 0.9;
@@ -128,7 +126,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	margin-top: 11rem;
+	margin-top: 7.5rem;
   }
   
   .logo {
@@ -197,7 +195,7 @@
   .button-search:focus {
 	border-color: #4285f4;
   }
-  
+
   /* FOOTER */
   
   .footer {
@@ -211,7 +209,7 @@
 	border: 1px solid var(--border-color);
 	background: var(--footer-background);
 	color: var(--footer-font);
-	font-size: 1.4rem;
+	font-size: 1.3rem;
   }
   
   .left-section,
@@ -220,13 +218,15 @@
   }
   
   .right-section {
-	margin-right: 3rem;
+	margin-right: 2rem;
   }
   
   .footer-link {
 	display: block;
-	padding: 1rem 0 1rem 3rem;
-  }
+    margin-right: 2rem;
+    margin-top: 1rem;
+  	margin-bottom: 1rem;
+}
   
   .footer-link:hover {
 	text-decoration: underline;
